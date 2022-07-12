@@ -94,11 +94,11 @@
             "image_padding": false
           }
         },
-        "1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0": {
-          "type": "image",
+        "bee21d5d-2184-42c5-bd22-5720eb9796a2": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9.png",
-            "image_padding": false
+            "product": "organic-artisan-oak-low-oriental-inspired-coffee-table",
+            "second_image": false
           }
         }
       },
@@ -111,7 +111,7 @@
         "489269d0-7893-4afd-8db3-c15773331f05",
         "ed42ba23-b01c-4800-a140-b4dd54c33c15",
         "570c3594-8405-4050-b081-4665ec746e9c",
-        "1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0"
+        "bee21d5d-2184-42c5-bd22-5720eb9796a2"
       ],
       "settings": {
         "heading": "Multimedia collage",
