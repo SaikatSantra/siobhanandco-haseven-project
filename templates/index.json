@@ -1,1 +1,220 @@
-{"sections":{"16576063468c576774":{"type":"image-banner","blocks":{"16576063467f9d2adf-0":{"type":"heading","settings":{"heading":"CURATED DECORATIVE ANTIQUES","heading_size":"h2"}},"16576063467f9d2adf-1":{"type":"text","settings":{"text":"Anton&K are well known for their understated and unique signature style – 18th to 20th Century Swedish, French and European antiques. With their carefully curated collection they have become the go-to trusted source for private buyers, interior designers and trade antique dealers the world over.","text_style":"body"}}},"block_order":["16576063467f9d2adf-0","16576063467f9d2adf-1"],"settings":{"image":"shopify:\/\/shop_images\/Capture.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":true,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"1657607719c3d084ba":{"type":"collage","disabled":true,"blocks":{"165760771946bb883f-1":{"type":"product","settings":{"product":"organic-artisan-oak-low-oriental-inspired-coffee-table","second_image":false}},"165760771946bb883f-2":{"type":"collection","settings":{"collection":"frontpage"}},"f0eb1bb4-05cd-44d6-8e55-544ba4a70a0f":{"type":"product","settings":{"product":"organic-artisan-oak-low-oriental-inspired-coffee-table","second_image":false}}},"block_order":["165760771946bb883f-1","165760771946bb883f-2","f0eb1bb4-05cd-44d6-8e55-544ba4a70a0f"],"settings":{"heading":"Exciting New Arrivals!","heading_size":"h2","desktop_layout":"right","mobile_layout":"collage","color_scheme":"background-1","padding_top":36,"padding_bottom":36}},"16576078055dcbffb3":{"type":"collage","disabled":true,"blocks":{"1657607805459df1ea-1":{"type":"product","settings":{"product":"organic-artisan-oak-low-oriental-inspired-coffee-table","second_image":false}},"1657607805459df1ea-2":{"type":"collection","settings":{"collection":"frontpage"}},"d45531cf-5e84-4340-9adb-6e61af9d5d32":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/table-with-lamp-nov20_548bf65f-dc63-4e90-b18c-40b0537f997c_900x_1.jpg","image_padding":false}}},"block_order":["1657607805459df1ea-1","1657607805459df1ea-2","d45531cf-5e84-4340-9adb-6e61af9d5d32"],"settings":{"heading":"","heading_size":"h1","desktop_layout":"left","mobile_layout":"collage","color_scheme":"background-1","padding_top":0,"padding_bottom":36}},"16576098686835e298":{"type":"collage-update","blocks":{"6277557e-96e3-4cfb-9f15-5d56db859f9e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_7422_540x540_1.jpg","image_padding":false}},"e6dcc63a-5ec7-4103-8656-6a59de6e6a92":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_7403_1350x900_1.jpg","image_padding":false}},"41677b3b-62bd-4aa1-b756-a1d2802c76a7":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_7219_480x720_1.jpg","image_padding":false}},"0404fe28-efca-4d31-ba92-2c461f73d0de":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_7291_1081x720_1.jpg","image_padding":false}},"489269d0-7893-4afd-8db3-c15773331f05":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_7496_480x720_1.jpg","image_padding":false}},"ebe46b1a-0c50-4504-83b7-500e6e5e9a7e":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_6933_1026x720_1.jpg","image_padding":false}},"2a7723b1-ad04-45cb-ac9a-214b1ccc4a4c":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/meet-march22-v2_523x720_1.jpg","image_padding":false}},"570c3594-8405-4050-b081-4665ec746e9c":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_7239_1080x720_1.jpg","image_padding":false}},"1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IMG_7338_55a77481-157b-455e-bda8-b3183bc9830e_1081x720_1.jpg","image_padding":false}}},"block_order":["6277557e-96e3-4cfb-9f15-5d56db859f9e","e6dcc63a-5ec7-4103-8656-6a59de6e6a92","41677b3b-62bd-4aa1-b756-a1d2802c76a7","0404fe28-efca-4d31-ba92-2c461f73d0de","489269d0-7893-4afd-8db3-c15773331f05","ebe46b1a-0c50-4504-83b7-500e6e5e9a7e","2a7723b1-ad04-45cb-ac9a-214b1ccc4a4c","570c3594-8405-4050-b081-4665ec746e9c","1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0"],"settings":{"heading":"Multimedia collage","heading_size":"h1","desktop_layout":"left","mobile_layout":"collage","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["16576063468c576774","1657607719c3d084ba","16576078055dcbffb3","16576098686835e298"]}
+{
+  "sections": {
+    "16576063468c576774": {
+      "type": "image-banner",
+      "blocks": {
+        "16576063467f9d2adf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURATED DECORATIVE ANTIQUES",
+            "heading_size": "h2"
+          }
+        },
+        "16576063467f9d2adf-1": {
+          "type": "text",
+          "settings": {
+            "text": "Anton&K are well known for their understated and unique signature style – 18th to 20th Century Swedish, French and European antiques. With their carefully curated collection they have become the go-to trusted source for private buyers, interior designers and trade antique dealers the world over.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16576063467f9d2adf-0",
+        "16576063467f9d2adf-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Capture.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1657607719c3d084ba": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "165760771946bb883f-1": {
+          "type": "product",
+          "settings": {
+            "product": "organic-artisan-oak-low-oriental-inspired-coffee-table",
+            "second_image": false
+          }
+        },
+        "165760771946bb883f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "f0eb1bb4-05cd-44d6-8e55-544ba4a70a0f": {
+          "type": "product",
+          "settings": {
+            "product": "organic-artisan-oak-low-oriental-inspired-coffee-table",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "165760771946bb883f-1",
+        "165760771946bb883f-2",
+        "f0eb1bb4-05cd-44d6-8e55-544ba4a70a0f"
+      ],
+      "settings": {
+        "heading": "Exciting New Arrivals!",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16576078055dcbffb3": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "1657607805459df1ea-1": {
+          "type": "product",
+          "settings": {
+            "product": "organic-artisan-oak-low-oriental-inspired-coffee-table",
+            "second_image": false
+          }
+        },
+        "1657607805459df1ea-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "d45531cf-5e84-4340-9adb-6e61af9d5d32": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/table-with-lamp-nov20_548bf65f-dc63-4e90-b18c-40b0537f997c_900x_1.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "1657607805459df1ea-1",
+        "1657607805459df1ea-2",
+        "d45531cf-5e84-4340-9adb-6e61af9d5d32"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16576098686835e298": {
+      "type": "collage-update",
+      "blocks": {
+        "6277557e-96e3-4cfb-9f15-5d56db859f9e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7422_540x540_1.jpg",
+            "image_padding": false
+          }
+        },
+        "e6dcc63a-5ec7-4103-8656-6a59de6e6a92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7403_1350x900_1.jpg",
+            "image_padding": false
+          }
+        },
+        "41677b3b-62bd-4aa1-b756-a1d2802c76a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7219_480x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "0404fe28-efca-4d31-ba92-2c461f73d0de": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7291_1081x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "489269d0-7893-4afd-8db3-c15773331f05": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7496_480x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "ebe46b1a-0c50-4504-83b7-500e6e5e9a7e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6933_1026x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "2a7723b1-ad04-45cb-ac9a-214b1ccc4a4c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meet-march22-v2_523x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "570c3594-8405-4050-b081-4665ec746e9c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7239_1080x720_1.jpg",
+            "image_padding": false
+          }
+        },
+        "1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7338_55a77481-157b-455e-bda8-b3183bc9830e_1081x720_1.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "6277557e-96e3-4cfb-9f15-5d56db859f9e",
+        "e6dcc63a-5ec7-4103-8656-6a59de6e6a92",
+        "41677b3b-62bd-4aa1-b756-a1d2802c76a7",
+        "0404fe28-efca-4d31-ba92-2c461f73d0de",
+        "489269d0-7893-4afd-8db3-c15773331f05",
+        "ebe46b1a-0c50-4504-83b7-500e6e5e9a7e",
+        "2a7723b1-ad04-45cb-ac9a-214b1ccc4a4c",
+        "570c3594-8405-4050-b081-4665ec746e9c",
+        "1cdde5e9-dc3f-4571-a2eb-502a5c9ab4a0"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16576063468c576774",
+    "1657607719c3d084ba",
+    "16576078055dcbffb3",
+    "16576098686835e298"
+  ]
+}
