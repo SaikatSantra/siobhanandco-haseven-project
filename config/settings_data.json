@@ -155,26 +155,27 @@
               "show_social": true
             }
           },
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Shop",
-              "menu": "footer"
-            }
-          },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Useful links",
               "menu": "main-menu"
             }
+          },
+          "9e7f4de1-63f0-41b4-8a75-1c5b540fa067": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+              "show_social": false
+            }
           }
         },
         "block_order": [
           "text",
           "865966ab-e9b4-46c8-8862-d26a782e95d2",
-          "footer-0",
-          "footer-1"
+          "footer-1",
+          "9e7f4de1-63f0-41b4-8a75-1c5b540fa067"
         ],
         "settings": {
           "color_scheme": "inverse",
