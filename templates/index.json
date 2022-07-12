@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "CURATED DECORATIVE ANTIQUES",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "16576063467f9d2adf-1": {
@@ -116,7 +116,7 @@
       ],
       "settings": {
         "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "color_scheme": "background-1",
