@@ -284,7 +284,7 @@
     
     <div class="parent {% unless section.settings.mobile_layout == 'collage' %} column--mobile{% endunless %}">
         {%- for block in section.blocks -%}
-        <div class="div{{forloop.index}}">
+        <div class="div{{forloop.index}} {{ block.type | handle }}">
          {%- case block.type -%}
             {%- when 'image' -%}
               <div class="collage-card color-{{ settings.card_color_scheme }}{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
