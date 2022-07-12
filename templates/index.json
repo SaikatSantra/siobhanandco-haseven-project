@@ -28,9 +28,9 @@
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
