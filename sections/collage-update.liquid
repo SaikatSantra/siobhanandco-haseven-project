@@ -3,7 +3,7 @@
 {% endcomment %}
 
 <style>
-  
+    {%- if section.blocks.size == 2 -%}
   .div2 .media {
     height: calc(33.333vw + -0px);
     position: relative;
@@ -21,7 +21,7 @@
     font-family: "object-fit: cover";
   }
   
-    {%- if section.blocks.size == 2 -%}
+  
   .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -32,6 +32,9 @@
 
   .div1 { grid-area: 1 / 1 / 2 / 2; }
   .div2 { grid-area: 1 / 2 / 2 / 4; }
+  
+   {%- elsif section.blocks.size == 3 -%}
+  
   {%- else -%}
   .parent {
     display: grid;
