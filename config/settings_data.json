@@ -143,7 +143,8 @@
             "type": "text",
             "settings": {
               "heading": "Siobhan & co",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+              "show_social": false
             }
           },
           "footer-0": {
@@ -164,7 +165,8 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+              "show_social": true
             }
           }
         },
@@ -178,7 +180,6 @@
           "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
