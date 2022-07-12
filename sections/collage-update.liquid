@@ -4,15 +4,16 @@
 
 <style>
     
-    .div2 .media, .div1 .media {
+    
+  
+  {%- if section.blocks.size == 2 -%}
+  .div2 .media, .div1 .media {
       height: calc(33.333vw + -0px);
     }
     .div1 img, .div2 img {
       object-fit: cover;
       font-family: "object-fit: cover";
     }
-  
-  {%- if section.blocks.size == 2 -%}
   .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -38,6 +39,16 @@
   .div3 { grid-area: 3 / 2 / 5 / 3; } 
   
   {%- elsif section.blocks.size == 4 -%}
+  .div2 .media, .div4 .media {
+    height: calc(33.333vw + -0px);
+  }
+  .div1 img, .div2 img,.div3 img,.div4 img {
+    object-fit: cover;
+    font-family: "object-fit: cover";
+  }
+  .div1 .media, .div3 .media {
+    height: calc(66.666vw + -0px);
+  }
   .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
