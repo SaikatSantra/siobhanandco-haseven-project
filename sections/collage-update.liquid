@@ -289,7 +289,8 @@
             {%- when 'image' -%}
               <div class="collage-card color-{{ settings.card_color_scheme }}{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
                 <div class="media media--transparent ratio"{% if block.settings.image != blank %} style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>
-                  {%- if block.settings.image != blank -%}
+              <a href="{{block.settings.link}}">   
+                {%- if block.settings.image != blank -%}
                     <img
                       srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
                         {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | image_url: width: 720 }} 720w,{%- endif -%}
@@ -309,6 +310,7 @@
                   {%- else -%}
                     {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                   {%- endif -%}
+                  </a>
                 </div>
               </div>
             {%- when 'product' -%}
@@ -536,6 +538,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.collage.blocks.image.settings.image.label"
+        },
+{
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         },
         {
           "type": "checkbox",
