@@ -147,6 +147,14 @@
               "show_social": false
             }
           },
+          "865966ab-e9b4-46c8-8862-d26a782e95d2": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "",
+              "show_social": true
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -160,21 +168,13 @@
               "heading": "Useful links",
               "menu": "main-menu"
             }
-          },
-          "865966ab-e9b4-46c8-8862-d26a782e95d2": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-              "show_social": true
-            }
           }
         },
         "block_order": [
           "text",
+          "865966ab-e9b4-46c8-8862-d26a782e95d2",
           "footer-0",
-          "footer-1",
-          "865966ab-e9b4-46c8-8862-d26a782e95d2"
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "inverse",
