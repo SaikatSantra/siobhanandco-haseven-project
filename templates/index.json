@@ -135,7 +135,6 @@
         },
         "41677b3b-62bd-4aa1-b756-a1d2802c76a7": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_7219_480x720_1.jpg",
             "image_padding": false
@@ -143,7 +142,6 @@
         },
         "0404fe28-efca-4d31-ba92-2c461f73d0de": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_7291_1081x720_1.jpg",
             "image_padding": false
