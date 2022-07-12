@@ -64,6 +64,23 @@
   
   {%- else -%}
   
+  .div2 .media, .div1 .media {
+      height: calc(33.333vw + -0px);
+    }
+  .div4 .media, .div6 .media {
+    height: calc(33.333vw + -0px);
+  }
+  .div3 .media, .div5 .media {
+    height: calc(66.666vw + 10px);
+  }
+  
+  
+  .div1 img, .div2 img,.div3 img,.div4 img,
+  .div5 img, .div6 img,.div7 img,.div8 img,.div9 img {
+    object-fit: cover;
+    font-family: "object-fit: cover";
+  }
+  
   .parent {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
