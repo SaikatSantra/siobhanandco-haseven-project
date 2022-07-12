@@ -129,6 +129,67 @@
         "padding_bottom": 36
       }
     },
+    "1657650829d32429f6": {
+      "type": "collection-list",
+      "blocks": {
+        "16576508294a09a9f5-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        },
+        "16576508294a09a9f5-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        },
+        "16576508294a09a9f5-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        },
+        "eb61580c-7784-40b8-8098-7da403297610": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        },
+        "c778bf44-214f-4472-8bc1-4da9c5d7ab7c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        },
+        "395eb560-18be-4883-b1ca-1b1dffcec17f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meet-siobhan-co"
+          }
+        }
+      },
+      "block_order": [
+        "16576508294a09a9f5-0",
+        "16576508294a09a9f5-1",
+        "16576508294a09a9f5-2",
+        "eb61580c-7784-40b8-8098-7da403297610",
+        "c778bf44-214f-4472-8bc1-4da9c5d7ab7c",
+        "395eb560-18be-4883-b1ca-1b1dffcec17f"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1657648668b07b7ead": {
       "type": "newsletter",
       "blocks": {
@@ -167,6 +228,7 @@
   "order": [
     "16576063468c576774",
     "16576098686835e298",
+    "1657650829d32429f6",
     "1657648668b07b7ead"
   ]
 }
