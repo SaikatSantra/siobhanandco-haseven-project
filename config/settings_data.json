@@ -166,7 +166,7 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p><p>Add to cart<br\/><\/p>",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p><p>&lt;button&gt;Add to cart&lt;\/button&gt;<br\/><\/p>",
               "show_social": false
             }
           }
