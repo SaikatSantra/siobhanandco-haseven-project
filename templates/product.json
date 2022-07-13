@@ -67,6 +67,15 @@
             "content": "<p>UK, Channel Islands, Eire, Isle of Wight, Isle of Man & Northern Ireland.<\/p><p>We offer a professional and quick delivery service with trusted local couriers to deliver your purchased items from Anton & K Decorative Antiques Ltd.<\/p><p>Standard delivery is with a one man courier and it is a door to door service. If you require a two man courier, please let us know at the time of purchase.<\/p><p>Please use the Sales Enquiry form above to request a quote for personal, door-to-door UK delivery.<\/p>",
             "page": ""
           }
+        },
+        "bd8aac82-b790-49c5-ae60-1e80e314db99": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "<p>We regularly ship worldwide to our client base using internationally recognised shippers. The couriers we recommend are professional, reliable and offer an insured and secure service.<\/p><p>Shipping cost will be calculated at the time of checkout. Shipping time will be estimated based on your location and will range from 3-10 days.<\/p><p>If you are based abroad and would like a quote, please use the <a href=\"https:\/\/antonandk.co.uk\/pages\/contact-us\"><span style=\"text-decoration:underline\">sales enquiry form<\/span><\/a> above to request a shipping quote giving us much details as possible. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -79,7 +88,8 @@
         "variant_picker",
         "buy_buttons",
         "8e481e59-7c72-4ea2-b2f6-f556aabc261e",
-        "141aff19-a1fa-441f-a407-f8115f887a1a"
+        "141aff19-a1fa-441f-a407-f8115f887a1a",
+        "bd8aac82-b790-49c5-ae60-1e80e314db99"
       ],
       "settings": {
         "enable_sticky_info": true,
