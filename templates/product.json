@@ -76,6 +76,12 @@
             "content": "<p>We regularly ship worldwide to our client base using internationally recognised shippers. The couriers we recommend are professional, reliable and offer an insured and secure service.<\/p><p>Shipping cost will be calculated at the time of checkout. Shipping time will be estimated based on your location and will range from 3-10 days.<\/p><p>If you are based abroad and would like a quote, please use the <a href=\"https:\/\/antonandk.co.uk\/pages\/contact-us\"><span style=\"text-decoration:underline\">sales enquiry form<\/span><\/a> above to request a shipping quote giving us much details as possible. <\/p>",
             "page": ""
           }
+        },
+        "78b6d033-37e9-460f-9c03-a428bc54f4b9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}\n<div class=\"localization-form__select\">\n<h2 class=\"visually-hidden\" id=\"FooterCountryLabelNoScript\">{{ 'localization.country_label' | t }}<\/h2>\n<select class=\"localization-selector link\" name=\"country_code\" aria-labelledby=\"FooterCountryLabelNoScript\">\n{%- for country in localization.available_countries -%}\n<option value=\"{{ country.iso_code }}\" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>\n{{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})\n<\/option>\n{%- endfor -%}\n<\/select>\n{% render 'icon-caret' %}\n<\/div>\n<button class=\"button button--tertiary\">{{ 'localization.update_country' | t }}<\/button>\n{%- endform -%}"
+          }
         }
       },
       "block_order": [
@@ -89,7 +95,8 @@
         "buy_buttons",
         "8e481e59-7c72-4ea2-b2f6-f556aabc261e",
         "141aff19-a1fa-441f-a407-f8115f887a1a",
-        "bd8aac82-b790-49c5-ae60-1e80e314db99"
+        "bd8aac82-b790-49c5-ae60-1e80e314db99",
+        "78b6d033-37e9-460f-9c03-a428bc54f4b9"
       ],
       "settings": {
         "enable_sticky_info": true,
