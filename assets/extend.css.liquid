@@ -66,7 +66,7 @@ h2.collage-wrapper-title, .collection-list-title {
 
 
 /* collection */
-
+{% unless template contains 'index' %}
 .collection .card .card__media {
     margin: 0!important;
     width: 100%!important;
@@ -91,7 +91,7 @@ h2.collage-wrapper-title, .collection-list-title {
 .collection li:hover .card--card.card--media>.card__content{
  opacity:1;
 }
-
+{% endunless %}
 
 /* product page  */
 @media screen and (min-width: 990px){
