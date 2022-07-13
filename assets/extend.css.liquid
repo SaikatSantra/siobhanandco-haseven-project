@@ -5,6 +5,7 @@ div#shopify-section-header {
   transform: translateY(0);
 }
 
+
 /* search */
 .search-modal.modal__content {
     height: 100vh!important;
@@ -17,6 +18,12 @@ div#shopify-section-header {
     right: 30px!important;
 }
 /* header end */
+@media screen and (max-width: 749px){
+.banner--mobile-bottom:not(.banner--stacked) .banner__content {
+    order: 1;
+}
+.banner--mobile-bottom:not(.banner--stacked) .banner__media {    order: 2;}
+}
 
 @media screen and (min-width: 750px){
 .banner__box {max-width: 55%!important;}
