@@ -85,12 +85,6 @@
             "content": "<localization-form>\n            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}\n              <div class=\"no-js-hidden\">\n                <h2 class=\"caption-large text-body\" id=\"FooterCountryLabel\">{{ 'localization.country_label' | t }}<\/h2>\n                <div class=\"disclosure\">\n                  <button type=\"button\" class=\"disclosure__button localization-form__select localization-selector link link--text caption-large\" aria-expanded=\"false\" aria-controls=\"FooterCountryList\" aria-describedby=\"FooterCountryLabel\">\n                    {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})\n                    {% render 'icon-caret' %}\n                  <\/button>\n                  <div class=\"disclosure__list-wrapper\" hidden>\n                    <ul id=\"FooterCountryList\" role=\"list\" class=\"disclosure__list list-unstyled\">\n                      {%- for country in localization.available_countries -%}\n                        <li class=\"disclosure__item\" tabindex=\"-1\">\n                          <a class=\"link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset\" href=\"#\"{% if country.iso_code == localization.country.iso_code %} aria-current=\"true\"{% endif %} data-value=\"{{ country.iso_code }}\">\n                            {{ country.name }} <span class=\"localization-form__currency\">({{ country.currency.iso_code }} {{ country.currency.symbol }})<\/span>\n                          <\/a>\n                        <\/li>\n                      {%- endfor -%}\n                    <\/ul>\n                  <\/div>\n                <\/div>\n                <input type=\"hidden\" name=\"country_code\" value=\"{{ localization.country.iso_code }}\">\n              <\/div>\n            {%- endform -%}\n          <\/localization-form>",
             "page": ""
           }
-        },
-        "78b6d033-37e9-460f-9c03-a428bc54f4b9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<localization-form>\n            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}\n              <div class=\"no-js-hidden\">\n                <h2 class=\"caption-large text-body\" id=\"FooterCountryLabel\">{{ 'localization.country_label' | t }}<\/h2>\n                <div class=\"disclosure\">\n                  <button type=\"button\" class=\"disclosure__button localization-form__select localization-selector link link--text caption-large\" aria-expanded=\"false\" aria-controls=\"FooterCountryList\" aria-describedby=\"FooterCountryLabel\">\n                    {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})\n                    {% render 'icon-caret' %}\n                  <\/button>\n                  <div class=\"disclosure__list-wrapper\" hidden>\n                    <ul id=\"FooterCountryList\" role=\"list\" class=\"disclosure__list list-unstyled\">\n                      {%- for country in localization.available_countries -%}\n                        <li class=\"disclosure__item\" tabindex=\"-1\">\n                          <a class=\"link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset\" href=\"#\"{% if country.iso_code == localization.country.iso_code %} aria-current=\"true\"{% endif %} data-value=\"{{ country.iso_code }}\">\n                            {{ country.name }} <span class=\"localization-form__currency\">({{ country.currency.iso_code }} {{ country.currency.symbol }})<\/span>\n                          <\/a>\n                        <\/li>\n                      {%- endfor -%}\n                    <\/ul>\n                  <\/div>\n                <\/div>\n                <input type=\"hidden\" name=\"country_code\" value=\"{{ localization.country.iso_code }}\">\n              <\/div>\n            {%- endform -%}\n          <\/localization-form>"
-          }
         }
       },
       "block_order": [
@@ -105,8 +99,7 @@
         "8e481e59-7c72-4ea2-b2f6-f556aabc261e",
         "141aff19-a1fa-441f-a407-f8115f887a1a",
         "bd8aac82-b790-49c5-ae60-1e80e314db99",
-        "855bf1fc-81a2-47e4-9768-cf43d6e48374",
-        "78b6d033-37e9-460f-9c03-a428bc54f4b9"
+        "855bf1fc-81a2-47e4-9768-cf43d6e48374"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -115,8 +108,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collapsible-content": {
